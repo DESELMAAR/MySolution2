@@ -14,12 +14,11 @@
 
 
 
-.container{
-  background-color: var(--Lightgray);
-  max-width: 1440px;
-  height:1000PX ;
-  display: GRID;
-
+.container {
+background-color: var(--Lightgray);
+display: GRID;
+min-height:100vh;
+place-items: center;
 }
 .card{
   width: fit-content;
